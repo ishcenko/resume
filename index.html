@@ -2,10 +2,348 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link type="image/png" sizes="16x16" rel="icon" href="./favicon.png" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
     <title>Resume</title>
   </head>
   <body>
-    <h1>Hello world</h1>
+    <main>
+      <section class="about-me">
+        <div>
+          <h1 class="name">Andrii <span>Ishchenko</span></h1>
+          <p class="position">Full Stack Developer</p>
+          <p class="about-me-text">
+            <!--  Мотивація -->
+          </p>
+        </div>
+
+        <div class="info-left">
+          <ul class="list">
+            <li class="">
+              <p class="title">Tech Skills</p>
+              <ul class="techskills-list">
+                <li class="techskills-item item">HTML5</li>
+                <li class="techskills-item item">CSS3/SASS</li>
+                <li class="techskills-item item">JavaScript</li>
+                <li class="techskills-item item">React Hooks & Components</li>
+                <li class="techskills-item item">Webpack/Parcel</li>
+                <li class="techskills-item item">React Redux</li>
+              </ul>
+            </li>
+            <li class="">
+              <p class="title">Soft Skills</p>
+              <ul class="softskills-list">
+                <li class="softskills-item item">Willingness to learn</li>
+                <li class="softskills-item item">Time management skills</li>
+                <li class="softskills-item item">Flexible</li>
+                <li class="softskills-item item">Diligent</li>
+                <li class="softskills-item item">Autonomous</li>
+              </ul>
+            </li>
+            <li class="">
+              <p class="title">Languages</p>
+              <ul class="languages-list">
+                <li class="languages-item item">Ukrainian - native</li>
+              </ul>
+            </li>
+            <li class="">
+              <p class="title">Contacts</p>
+              <p class="title">information</p>
+              <ul class="contacts-list">
+                <li class="contacts-item item">
+                  <svg class="icon-svg">
+                    <use
+                      href="./src/image/svg/symbol-defs.svg#icon-mobile"
+                    ></use>
+                  </svg>
+                  <a href="tel:+380688894532">+38 068 022 14 74</a>
+                </li>
+                <li class="contacts-item item">
+                  <svg class="icon-svg">
+                    <use
+                      href="./src/image/svg/symbol-defs.svg#icon-telegram"
+                    ></use>
+                  </svg>
+                  <a href="https://t.me/ISANDRI">Telegram</a>
+                </li>
+                <li class="contacts-item item">
+                  <svg class="icon-svg">
+                    <use
+                      href="./src/image/svg/symbol-defs.svg#icon-email"
+                    ></use>
+                  </svg>
+                  <a href="mailto:a_ishcenko@i.ua">a_ishcenko@i.ua</a>
+                </li>
+                <li class="contacts-item item">
+                  <svg class="icon-svg">
+                    <use
+                      href="./src/image/svg/symbol-defs.svg#icon-github"
+                    ></use>
+                  </svg>
+                  <a
+                    href="https://github.com/ishcenko"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GitHub</a
+                  >
+                </li>
+                <li class="contacts-item item">
+                  <svg class="icon-svg">
+                    <use
+                      href="./src/image/svg/symbol-defs.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                  <a
+                    href="https://www.linkedin.com/in/andrii-ishchenko-8b70b8280/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li class="contacts-item item">
+                  <svg class="icon-svg">
+                    <use
+                      href="./src/image/svg/symbol-defs.svg#icon-location"
+                    ></use>
+                  </svg>
+                  <address>
+                    <a
+                      href="https://goo.gl/maps/qxJBRtjMjtargdRy7"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Kryvyi Rih, Ukraine</a
+                    >
+                  </address>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="experience">
+        <div class="photo">
+          <img src="./src/image/my-foto.jpg" alt="photo" />
+        </div>
+        <div class="info-right">
+          <ul class="about-list list">
+            <li class="about-list-item">
+              <h3 class="title onBlack">Project experience</h3>
+              <ul class="projects-list list">
+                <li class="project-item item marker-item">
+                  <h4 class="project-name">
+                    <a
+                      class="link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href=""
+                    ></a>
+                  </h4>
+                  <p>|</p>
+                  <h5 class="project-tech"></h5>
+                  <p class="project-about">
+                    <a
+                      class="link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href=""
+                    ></a>
+                  </p>
+                </li>
+                <li class="project-item item marker-item">
+                  <h4 class="project-name">
+                    <a
+                      class="link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href=""
+                    ></a>
+                  </h4>
+                  <p>|</p>
+                  <h5 class="project-tech"></h5>
+                  <p class="project-about">
+                    <a
+                      class="link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href=""
+                    ></a>
+                  </p>
+                </li>
+                <li class="project-item item marker-item">
+                  <h4 class="project-name">
+                    <a
+                      class="link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href=""
+                    ></a>
+                  </h4>
+                  <p>|</p>
+                  <h5 class="project-tech"></h5>
+                  <p class="project-about">
+                    <a
+                      class="link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href=""
+                    ></a>
+                  </p>
+                </li>
+
+                <!-- more project -->
+                <li class="project-item item marker-item is-hidden">
+                  <h4 class="project-name">
+                    <a
+                      class="link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href=""
+                    ></a>
+                  </h4>
+                  <p>|</p>
+                  <h5 class="project-tech"></h5>
+                  <p class="project-about">
+                    <a
+                      class="link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href=""
+                    ></a>
+                  </p>
+                </li>
+
+                <li class="project-item item marker-item is-hidden">
+                  <h4 class="project-name">
+                    <a
+                      class="link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href=""
+                    ></a>
+                  </h4>
+                  <p>|</p>
+                  <h5 class="project-tech"></h5>
+                  <p class="project-about">
+                    <a
+                      class="link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href=""
+                    ></a>
+                  </p>
+                </li>
+
+                <li class="project-item item marker-item is-hidden">
+                  <h4 class="project-name">
+                    <a
+                      class="link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href=""
+                    ></a>
+                  </h4>
+                  <p>|</p>
+                  <h5 class="project-tech"></h5>
+                  <p class="project-about">
+                    <a
+                      class="link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href=""
+                    ></a>
+                  </p>
+                </li>
+              </ul>
+            </li>
+            <li class="about-list-item">
+              <h3 class="title onBlack"></h3>
+              <div class="about-list-box">
+                <div>
+                  <ul class="work-list list">
+                    <li class="work-item item marker-item">
+                      <h4></h4>
+                      <p></p>
+                      <p></p>
+                    </li>
+                    <!-- <p class="more-info">Show more...</p> -->
+                    <!-- <button
+                      id="show-more"
+                      type="button"
+                      class="show-more-btn btn"
+                    >
+                      Show more...
+                    </button> -->
+                    <!-- <button
+                      id="show-less"
+                      type="button"
+                      class="show-less-btn btn is-hidden"
+                    >
+                      Show less...
+                    </button> -->
+                    <!-- ^add on click action -->
+                    <li class="work-item item is-hidden marker-item">
+                      <h4></h4>
+                      <p></p>
+                      <p></p>
+                    </li>
+                    <li class="work-item item is-hidden marker-item">
+                      <h4></h4>
+                      <p></p>
+                      <p></p>
+                    </li>
+                    <li class="work-item item is-hidden marker-item">
+                      <h4></h4>
+                      <p></p>
+                      <p></p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="about-list-item">
+              <h3 class="title onBlack">Education</h3>
+              <ul class="education-list list">
+                <li class="education-item item marker-item">
+                  <h4>IT School GoIT</h4>
+                  <p>2022 - 2023</p>
+                  <!-- <p>Fullstack Developer</p> -->
+                  <a target="_blank" rel="noopener noreferrer" href=""
+                    >Fullstack Developer</a
+                  >
+                </li>
+                <!-- <p class="more-info">Show more...</p> -->
+                <!-- <button type="button" class="show-more-btn btn">
+                  Show more...
+                </button>
+                <button type="button" class="show-less-btn btn is-hidden">
+                  Show less...
+                </button> -->
+
+                <!-- ^add on click action -->
+                <li class="education-item item is-hidden marker-item">
+                  <h4></h4>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <script src="./index.js"></script>
   </body>
 </html>
